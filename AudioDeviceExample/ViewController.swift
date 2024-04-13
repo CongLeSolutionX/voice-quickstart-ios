@@ -14,7 +14,7 @@ let twimlParamTo = "to"
 
 class ViewController: UIViewController {
     
-    var accessToken: String? = <#Replace with Access Token string#>
+    var accessToken: String? = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzM4YmQyNzhkMWU4MDMzMjQwZWIyYjBhZjMxYjNhMzcyLTE3MTMwMDQ0MDEiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJ1c2VyIiwidm9pY2UiOnsib3V0Z29pbmciOnsiYXBwbGljYXRpb25fc2lkIjoiQVA3Yzg3MDRmZmVmZjZhNDE5OTJjNzIzODc3MjY3YzAxMCJ9LCJwdXNoX2NyZWRlbnRpYWxfc2lkIjoiQ1J4eHh4In19LCJpYXQiOjE3MTMwMDQ0MDEsImV4cCI6MTcxMzAwODAwMSwiaXNzIjoiU0szOGJkMjc4ZDFlODAzMzI0MGViMmIwYWYzMWIzYTM3MiIsInN1YiI6IkFDYzgyZjZjYzAxZmQzZWQ5Yzk1YjVhYzJhZDIyMDEzOTcifQ.xgRgVRvnTwMO9B3Md_1ZRrc3Ikl2yaw8grJEbfKCpTw"
     var activeCall: Call?
     var audioDevice: ExampleAVAudioEngineDevice = ExampleAVAudioEngineDevice()
     
